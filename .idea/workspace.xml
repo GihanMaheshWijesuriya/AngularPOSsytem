@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b13024f-d4a4-46a0-af2b-dbfd5cf2568f" name="Default Changelist" comment="setup angular project">
+      <change afterPath="$PROJECT_DIR$/.idea/AngularPOSproject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAngularPOS/tslint.json" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angularPOS/src/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angularPOS/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/angularPOS/src/app/navbar/navbar.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="67" column="15" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angularPOS/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-63">
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>D:\semester3\AngularPOSproject</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/firstAngularPOS/src/styles.css" />
+        <option value="$PROJECT_DIR$/firstAngularPOS/src/main.ts" />
+        <option value="$PROJECT_DIR$/firstAngularPOS/src/index.html" />
+        <option value="$PROJECT_DIR$/firstAngularPOS/src/app/navbar/navbar-component.css" />
+        <option value="$PROJECT_DIR$/firstAngularPOS/src/app/navbar/navbar-componentt.html" />
+        <option value="$PROJECT_DIR$/firstAngularPOS/src/app/main-navbar/main-navbar.component.html" />
+        <option value="$PROJECT_DIR$/firstAngularPOS/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/firstAngularPOS/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/firstAngularPOS/src/app/navbar/navbar.component.html" />
+        <option value="$PROJECT_DIR$/angularPOS/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/angularPOS/src/app/navbar/navbar.component.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="427" />
+    <option name="y" value="56" />
+    <option name="width" value="589" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="AngularPOSproject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="AngularPOSproject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="angularPOS" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="AngularPOSproject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="angularPOS" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="AngularPOSproject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="angularPOS" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="AngularPOSproject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="angularPOS" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="navbar" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="AngularPOSproject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="angularPOS" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AngularPOSproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularPOSproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="ts.external.directory.path" value="D:\semester3\AngularPOSproject\angularPOS\node_modules\typescript\lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b13024f-d4a4-46a0-af2b-dbfd5cf2568f" name="Default Changelist" comment="" />
+      <created>1560795145193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560795145193</updated>
+      <workItem from="1560795146602" duration="228000" />
+      <workItem from="1560795397880" duration="5393000" />
+      <workItem from="1560801515492" duration="694000" />
+      <workItem from="1560802293581" duration="188000" />
+      <workItem from="1560802513780" duration="1781000" />
+      <workItem from="1560804378842" duration="1624000" />
+    </task>
+    <task id="LOCAL-00001" summary="setup angular project">
+      <created>1560795513283</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560795513283</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9908000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49776787" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50223213" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="setup angular project" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup angular project" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/firstAngularPOS/e2e/src/app.e2e-spec.ts" />
+    <entry file="file://$PROJECT_DIR$/firstAngularPOS/src/styles.css" />
+    <entry file="file://$PROJECT_DIR$/firstAngularPOS/src/main.ts" />
+    <entry file="file://$PROJECT_DIR$/firstAngularPOS/src/app/navbar/navbar-component.service.ts" />
+    <entry file="file://$PROJECT_DIR$/firstAngularPOS/src/app/navbar/navbar-component.service.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/firstAngularPOS/src/app/navbar/navbar-componentt.html" />
+    <entry file="file://$PROJECT_DIR$/firstAngularPOS/src/app/navbar/navbar-component.css" />
+    <entry file="file://$PROJECT_DIR$/firstAngularPOS/src/app/main-navbar/main-navbar.component.html" />
+    <entry file="file://$PROJECT_DIR$/firstAngularPOS/src/app/main-navbar/main-navbar.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/firstAngularPOS/src/app/main-navbar/main-navbar.component.ts" />
+    <entry file="file://$PROJECT_DIR$/firstAngularPOS/src/app/main-navbar/main-navbar.service.ts" />
+    <entry file="file://$PROJECT_DIR$/firstAngularPOS/src/app/nm/nm.component.ts" />
+    <entry file="file://$PROJECT_DIR$/firstAngularPOS/src/app/main-navbar/main-navbar.service.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/firstAngularPOS/src/app/app.component.ts" />
+    <entry file="file://$PROJECT_DIR$/firstAngularPOS/src/app/app.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/firstAngularPOS/src/app/navbar/navbar.component.ts" />
+    <entry file="file://$PROJECT_DIR$/firstAngularPOS/src/app/app-routing.module.ts" />
+    <entry file="file://$PROJECT_DIR$/firstAngularPOS/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/firstAngularPOS/src/app/app.module.ts" />
+    <entry file="file://$PROJECT_DIR$/firstAngularPOS/src/app/app.component.html" />
+    <entry file="file://$PROJECT_DIR$/firstAngularPOS/src/app/navbar/navbar.component.html" />
+    <entry file="file://$PROJECT_DIR$/angularPOS/src/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angularPOS/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angularPOS/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angularPOS/src/app/navbar/navbar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="67" column="15" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
