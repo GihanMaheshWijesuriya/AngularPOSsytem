@@ -13,6 +13,7 @@ import {ItemComponent} from './mainbody/item/item.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {AppRoutingModule} from "./app-routing.module";
 import {OrderComponent} from './mainbody/order/order.component';
+import {NgxSpinnerModule} from "ngx-spinner";
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import {OrderComponent} from './mainbody/order/order.component';
     BrowserAnimationsModule,
     MDBBootstrapModule.forRoot(),
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

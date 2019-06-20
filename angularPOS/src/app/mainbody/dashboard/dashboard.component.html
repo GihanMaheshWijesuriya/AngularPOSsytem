@@ -1,14 +1,73 @@
-<div class="jumbotron row" style="padding-top: 80px">
+<div class="animated lightSpeedIn jumbotron row" style="padding-top: 80px">
   <div class="col-md-12 d-flex justify-content-end">
-    <button mdbBtn routerLink="/main/order" class="#00695c teal darken-3" cltype="button" rounded="true"
+    <button mdbBtn routerLink="/main/order" class="#7283a7 mdb-color lighten-2 rounded-pill mb-3" cltype="button"
+            rounded="true"
             style="color: white" mdbWavesEffect>Next
     </button>
   </div>
   <div class="col-md-4">
-    <!-- Default form register -->
-    <form class="text-center border border-light p-5">
+    <!-- Default form login -->
+    <form *ngIf="!hidepane" class="text-center border border-light p-5 z-depth-2 rounded-lg">
 
-      <p class="h4 mb-4">Add User</p>
+      <p class="h4 mb-4" style="font-family: 'Sitka Text'">Sign in</p>
+
+      <!-- Email -->
+      <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+      <!-- Password -->
+      <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+
+      <div class="d-flex justify-content-around">
+        <div>
+          <!-- Remember me -->
+          <mdb-checkbox [default]="true">Remember me</mdb-checkbox>
+        </div>
+        <div>
+          <!-- Forgot password -->
+          <a href="">Forgot password?</a>
+        </div>
+      </div>
+
+      <!-- Sign in button -->
+      <button mdbBtn color="info" block="true" class="my-4 #1c2331 mdb-color darken-4 rounded-pill" type="submit">Sign
+        in
+      </button>
+      <button mdbBtn color="info" block="true" class="my-4 #757575 grey darken-1 rounded-pill"
+              (click)="showsignuppane()" type="submit">Sign up
+      </button>
+
+      <!-- Register -->
+      <p>Not a member?
+        <a href="">Register</a>
+      </p>
+
+      <!-- Social login -->
+      <p>or sign in with:</p>
+
+      <a type="button" class="light-blue-text mx-2">
+        <!-- <i class="fab fa-facebook-f"></i> -->
+        <mdb-icon fab icon="facebook"></mdb-icon>
+      </a>
+      <a type="button" class="light-blue-text mx-2">
+        <!-- <i class="fab fa-twitter"></i> -->
+        <mdb-icon fab icon="twitter"></mdb-icon>
+      </a>
+      <a type="button" class="light-blue-text mx-2">
+        <!-- <i class="fab fa-linkedin-in"></i> -->
+        <mdb-icon fab icon="linkedin"></mdb-icon>
+      </a>
+      <a type="button" class="light-blue-text mx-2">
+        <!-- <i class="fab fa-github"></i> -->
+        <mdb-icon fab icon="heart"></mdb-icon>
+      </a>
+
+    </form>
+    <!-- Default form login -->
+
+    <!-- Default form register -->
+    <form *ngIf="hidepane" class="text-center border border-light p-5 z-depth-2 rounded-lg">
+
+      <p class="h4 mb-4" style="font-family: 'Sitka Text'">Add User</p>
 
       <div class="form-row mb-4">
         <div class="col">
@@ -46,7 +105,12 @@
       <!--</div>-->
 
       <!-- Sign up button -->
-      <button mdbBtn color="info" block="true" class="my-4 #00897b teal darken-1" type="submit">Sign in</button>
+      <button mdbBtn color="info" block="true" class="my-4 #1c2331 mdb-color darken-4 rounded-pill" type="submit">Sign
+        up
+      </button>
+      <button mdbBtn color="info" block="true" class="my-4 #757575 grey darken-1 rounded-pill"
+              (click)="showsigninpane()" type="submit">Sign in
+      </button>
 
       <!-- Social register -->
       <p>or sign up with:</p>
@@ -77,7 +141,7 @@
   </div>
   <div class="col-md-8">
     <table mdbTable>
-      <thead class="#00897b teal darken-1 white-text">
+      <thead class="stylish-color-dark #3E4551 white-text rounded-top">
       <tr>
         <th *ngFor="let head of headElements" scope="col">{{head}} </th>
       </tr>
@@ -93,3 +157,13 @@
     </table>
   </div>
 </div>
+
+<ngx-spinner
+  bdOpacity=0.9
+  size="medium"
+  color="#b6bbba"
+  type="ball-fussion"
+  [fullScreen]="true"
+>
+  <p style="color: white"> Loading... </p>
+</ngx-spinner>

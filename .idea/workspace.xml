@@ -2,335 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b13024f-d4a4-46a0-af2b-dbfd5cf2568f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/angularPOS/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularPOS/src/app/footerbar/footerbar.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularPOS/src/app/footerbar/footerbar.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularPOS/src/app/footerbar/footerbar.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/customer/customer.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/customer/customer.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/customer/customer.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/dashboard/dashboard.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/dashboard/dashboard.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/dashboard/dashboard.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/item/item.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/item/item.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/item/item.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/mainbody.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/mainbody.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/mainbody.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angularPOS/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo-e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo-e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo-e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo-e2e/tsconfig.e2e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/browserslist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/angularPOS/src/app/footerbar/footerbar.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/customer/customer.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/app.server.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/advanced-main/advanced-main.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/advanced-main/advanced-main.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/dashboard/dashboard.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/advanced-main/advanced-main.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/advanced-main/advanced-main.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/carousel-fullpage-example/carousel-fullpage-example.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/carousel-fullpage-example/carousel-fullpage-example.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/carousel-fullpage-example/carousel-fullpage-example.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/carousel-fullpage-example/carousel-fullpage-example.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/carousel/carousel.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/carousel/carousel.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/item/item.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/carousel/carousel.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/carousel/carousel.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/bar/bar.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/bar/bar.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/mainbody.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/bar/bar.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/bar/bar.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/charts.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/charts.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/charts.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/charts.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/dounghnut/dounghnut.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/dounghnut/dounghnut.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/dounghnut/dounghnut.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/dounghnut/dounghnut.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/easy/easy.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/easy/easy.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/easy/easy.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/easy/easy.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/line/line.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/line/line.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/line/line.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/line/line.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/pie/pie.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/pie/pie.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/pie/pie.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/pie/pie.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/polar/polar.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/polar/polar.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/polar/polar.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/polar/polar.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/radar/radar.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/radar/radar.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/radar/radar.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/charts/radar/radar.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/collapse/collapse.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/collapse/collapse.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/collapse/collapse.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/collapse/collapse.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/popover/popover.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/popover/popover.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/popover/popover.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/popover/popover.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/tooltip/tooltip.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/tooltip/tooltip.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/tooltip/tooltip.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/advanced/tooltip/tooltip.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/buttons/buttons.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/buttons/buttons.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/buttons/buttons.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/buttons/buttons.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/cards/cards.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/cards/cards.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/cards/cards.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/cards/cards.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/components-main/components-main.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/components-main/components-main.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/components-main/components-main.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/components-main/components-main.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/dropdowns/dropdowns.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/dropdowns/dropdowns.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/dropdowns/dropdowns.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/dropdowns/dropdowns.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/list-groups/list-groups.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/list-groups/list-groups.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/list-groups/list-groups.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/list-groups/list-groups.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/pagination-advanced/pagination-advanced.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/pagination-advanced/pagination-advanced.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/pagination-advanced/pagination-advanced.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/pagination-advanced/pagination-advanced.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/pagination-api/pagination-api.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/pagination-api/pagination-api.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/pagination-api/pagination-api.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/pagination-api/pagination-api.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/pagination-basic/pagination-basic.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/pagination-basic/pagination-basic.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/pagination-basic/pagination-basic.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/pagination-basic/pagination-basic.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/pagination/pagination.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/pagination/pagination.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/pagination/pagination.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/panels/panels.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/panels/panels.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/panels/panels.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/panels/panels.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/tags-labels-badges/tags-labels-badges.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/tags-labels-badges/tags-labels-badges.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/tags-labels-badges/tags-labels-badges.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/components/tags-labels-badges/tags-labels-badges.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/css/css-main/css-main.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/css/css-main/css-main.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/css/css-main/css-main.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/css/css-main/css-main.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/css/hover/hover.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/css/hover/hover.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/css/hover/hover.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/css/hover/hover.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/css/masks/masks.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/css/masks/masks.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/css/masks/masks.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/css/masks/masks.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/css/shadows/shadows.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/css/shadows/shadows.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/css/shadows/shadows.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/css/shadows/shadows.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/extended/extended-main/extended-main.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/extended/extended-main/extended-main.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/extended/extended-main/extended-main.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/extended/extended-main/extended-main.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/extended/maps/maps.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/extended/maps/maps.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/extended/maps/maps.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/extended/maps/maps.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/checkbox/checkbox.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/checkbox/checkbox.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/checkbox/checkbox.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/checkbox/checkbox.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/forms-main/forms-main.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/forms-main/forms-main.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/forms-main/forms-main.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/forms-main/forms-main.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/forms/forms.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/forms/forms.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/forms/forms.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/forms/forms.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/input-groups/input-groups.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/input-groups/input-groups.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/input-groups/input-groups.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/input-groups/input-groups.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/input-validation/input-validation.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/input-validation/input-validation.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/input-validation/input-validation.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/input-validation/input-validation.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/inputs/inputs.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/inputs/inputs.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/inputs/inputs.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/inputs/inputs.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/radio/radio.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/radio/radio.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/radio/radio.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/radio/radio.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/search/search.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/search/search.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/search/search.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/search/search.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/textarea/textarea.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/textarea/textarea.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/textarea/textarea.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/forms/textarea/textarea.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/main-view/main-view.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/main-view/main-view.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/main-view/main-view.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/main-view/main-view.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modal-advanced/modal-advanced.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modal-advanced/modal-advanced.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modal-advanced/modal-advanced.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modal-advanced/modal-advanced.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modal-basic/modal-basic.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modal-basic/modal-basic.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modal-basic/modal-basic.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modal-basic/modal-basic.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modal-events/modal-events.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modal-events/modal-events.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modal-events/modal-events.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modal-events/modal-events.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modal-forms/modal-forms.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modal-forms/modal-forms.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modal-forms/modal-forms.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modal-forms/modal-forms.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modal-styles/modal-styles.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modal-styles/modal-styles.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modal-styles/modal-styles.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modal-styles/modal-styles.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modals-main/modals-main.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modals-main/modals-main.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modals-main/modals-main.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/modals/modals-main/modals-main.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/footer-ex/footer-ex.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/footer-ex/footer-ex.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/footer-ex/footer-ex.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/footer-ex/footer-ex.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/hamburger/hamburger.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/hamburger/hamburger.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/hamburger/hamburger.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/hamburger/hamburger.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navbars/navbars.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navbars/navbars.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navbars/navbars.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navbars/navbars.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/i-f-n/i-f-n.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/i-f-n/i-f-n.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/i-f-n/i-f-n.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/i-f-n/i-f-n.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/i-f-t-n/i-f-t-n.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/i-f-t-n/i-f-t-n.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/i-f-t-n/i-f-t-n.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/i-f-t-n/i-f-t-n.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/i-n-f-n/i-n-f-n.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/i-n-f-n/i-n-f-n.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/i-n-f-n/i-n-f-n.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/i-n-f-n/i-n-f-n.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/i-n-f-t-n/i-n-f-t-n.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/i-n-f-t-n/i-n-f-t-n.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/i-n-f-t-n/i-n-f-t-n.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/i-n-f-t-n/i-n-f-t-n.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/navigation-layout.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/navigation-layout.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/navigation-layout.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/navigation-layout.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/r-f-n/r-f-n.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/r-f-n/r-f-n.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/r-f-n/r-f-n.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/r-f-n/r-f-n.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/r-n-f-n/r-n-f-n.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/r-n-f-n/r-n-f-n.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/r-n-f-n/r-n-f-n.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-layout/r-n-f-n/r-n-f-n.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-main/navigation-main.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-main/navigation-main.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-main/navigation-main.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navigation-main/navigation-main.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navs/navs.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navs/navs.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navs/navs.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/navigation/navs/navs.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/shared/footer/footer.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/shared/footer/footer.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/shared/footer/footer.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/shared/footer/footer.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/shared/nav/nav.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/shared/nav/nav.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/shared/nav/nav.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/shared/nav/nav.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/additional/additional.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/additional/additional.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/additional/additional.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/additional/additional.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/basic/basic.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/basic/basic.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/basic/basic.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/basic/basic.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/editable/editable.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/editable/editable.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/editable/editable.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/editable/editable.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/pagination/pagination.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/pagination/pagination.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/pagination/pagination.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/responsive/responsive.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/responsive/responsive.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/responsive/responsive.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/responsive/responsive.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/search/search.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/search/search.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/search/search.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/sort/sort.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/sort/sort.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/sort/sort.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/sort/sort.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/tables-main/tables-main.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/tables-main/tables-main.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/tables-main/tables-main.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/components/tables/tables-main/tables-main.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/modules/routes/routes.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/shared/shared.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/app/shared/shared.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/browserslist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/main.server.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/tsconfig.server.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/src/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/projects/mdb-demo/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angularPOS/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angularPOS/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularPOS/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angularPOS/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularPOS/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angularPOS/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angularPOS/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angularPOS/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularPOS/src/app/footerbar/footerbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angularPOS/src/app/footerbar/footerbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularPOS/src/app/mainbody/customer/customer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/customer/customer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularPOS/src/app/mainbody/customer/customer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/customer/customer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularPOS/src/app/mainbody/dashboard/dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/dashboard/dashboard.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularPOS/src/app/mainbody/dashboard/dashboard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/dashboard/dashboard.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularPOS/src/app/mainbody/item/item.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/item/item.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angularPOS/src/app/mainbody/item/item.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angularPOS/src/app/mainbody/item/item.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angularPOS/src/app/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angularPOS/src/app/navbar/navbar.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -345,44 +27,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angularPOS/src/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
-              <folding>
-                <element signature="n#style#0;n#app-navbar#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/mainbody.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/dashboard/dashboard.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1513">
-              <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+            <state relative-caret-position="154">
+              <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#form#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#ngx-spinner#0;n#ngx-spinner#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/dashboard/dashboard.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="372">
+              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -390,20 +57,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/order/order.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+            <state relative-caret-position="255">
+              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angularPOS/src/app/app.module.ts">
+        <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/customer/customer.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#56#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/item/item.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -411,10 +84,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/item/item.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="287">
+              <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#form#0;n#div#2;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -423,29 +97,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/order/order.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="50" lean-forward="true" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+            <state relative-caret-position="272">
+              <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
               <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angularPOS/src/app/app-routing.module.ts">
+        <entry file="file://$PROJECT_DIR$/angularPOS/src/app/navbar/navbar.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+            <state relative-caret-position="68">
+              <caret line="5" column="105" selection-start-line="5" selection-start-column="105" selection-end-line="5" selection-end-column="105" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angularPOS/src/app/footerbar/footerbar.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/customer/customer.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="57" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+            <state relative-caret-position="323">
+              <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -499,24 +188,26 @@
         <option value="$PROJECT_DIR$/angularPOS/src/app/navdrawer/navdrawer.component.ts" />
         <option value="$PROJECT_DIR$/angularPOS/src/app/sidenav/sidenav.component.html" />
         <option value="$PROJECT_DIR$/angularPOS/src/app/sidenav/sidenav.component.ts" />
+        <option value="$PROJECT_DIR$/angularPOS/src/app/mainbody/mainbody.component.html" />
+        <option value="$PROJECT_DIR$/angularPOS/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/angularPOS/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/angularPOS/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/angularPOS/src/app/footerbar/footerbar.component.html" />
         <option value="$PROJECT_DIR$/angularPOS/src/app/navbar/navbar.component.html" />
-        <option value="$PROJECT_DIR$/angularPOS/src/app/mainbody/mainbody.component.html" />
-        <option value="$PROJECT_DIR$/angularPOS/src/app/mainbody/item/item.component.html" />
-        <option value="$PROJECT_DIR$/angularPOS/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/angularPOS/src/app/mainbody/dashboard/dashboard.component.ts" />
-        <option value="$PROJECT_DIR$/angularPOS/src/app/app-routing.module.ts" />
-        <option value="$PROJECT_DIR$/angularPOS/src/app/mainbody/dashboard/dashboard.component.html" />
-        <option value="$PROJECT_DIR$/angularPOS/src/app/mainbody/order/order.component.ts" />
         <option value="$PROJECT_DIR$/angularPOS/src/app/mainbody/order/order.component.html" />
+        <option value="$PROJECT_DIR$/angularPOS/src/app/mainbody/order/order.component.ts" />
+        <option value="$PROJECT_DIR$/angularPOS/src/app/mainbody/customer/customer.component.ts" />
         <option value="$PROJECT_DIR$/angularPOS/src/app/mainbody/customer/customer.component.html" />
+        <option value="$PROJECT_DIR$/angularPOS/src/app/mainbody/item/item.component.html" />
+        <option value="$PROJECT_DIR$/angularPOS/src/app/mainbody/item/item.component.ts" />
+        <option value="$PROJECT_DIR$/angularPOS/src/app/mainbody/dashboard/dashboard.component.html" />
+        <option value="$PROJECT_DIR$/angularPOS/src/app/mainbody/dashboard/dashboard.component.ts" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="102" />
-    <option name="y" value="-12" />
+    <option name="x" value="20" />
+    <option name="y" value="9" />
     <option name="width" value="1251" />
     <option name="height" value="788" />
   </component>
@@ -567,6 +258,14 @@
               <item name="angularPOS" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="footerbar" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="AngularPOSproject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="angularPOS" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="mainbody" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -577,6 +276,24 @@
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="mainbody" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="customer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="AngularPOSproject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="angularPOS" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mainbody" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dashboard" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="AngularPOSproject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="angularPOS" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mainbody" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="item" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="AngularPOSproject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -652,7 +369,7 @@
       <workItem from="1560802513780" duration="1781000" />
       <workItem from="1560804378842" duration="18488000" />
       <workItem from="1560966606032" duration="11272000" />
-      <workItem from="1561004782700" duration="1698000" />
+      <workItem from="1561004782700" duration="18480000" />
     </task>
     <task id="LOCAL-00001" summary="setup angular project">
       <created>1560795513283</created>
@@ -675,17 +392,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560806355195</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implement dashboard">
+      <created>1561021178693</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561021178693</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39742000" />
+    <option name="totallyTimeSpent" value="56524000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="10" y="133" width="1251" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27699918" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -697,7 +421,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49776787" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49776787" visible="true" weight="0.30687022" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50223213" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -712,7 +436,8 @@
     <MESSAGE value="setup angular project" />
     <MESSAGE value="use ui library" />
     <MESSAGE value="pull full document" />
-    <option name="LAST_COMMIT_MESSAGE" value="pull full document" />
+    <MESSAGE value="implement dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement dashboard" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -770,30 +495,6 @@
     <entry file="file://$PROJECT_DIR$/angularPOS/src/app/footerbar/footerbar.component.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/angularPOS/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angularPOS/src/app/footerbar/footerbar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angularPOS/src/app/navbar/navbar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#mdb-navbar-brand#0;n#mdb-navbar#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angularPOS/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -804,6 +505,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/angularPOS/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angularPOS/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/mainbody.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -811,72 +526,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/dashboard/dashboard.component.html">
+    <entry file="file://$PROJECT_DIR$/angularPOS/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1513">
-          <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="141">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/dashboard/dashboard.component.ts">
+    <entry file="file://$PROJECT_DIR$/angularPOS/src/app/footerbar/footerbar.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angularPOS/src/app/navbar/navbar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="105" selection-start-line="5" selection-start-column="105" selection-end-line="5" selection-end-column="105" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/order/order.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        <state relative-caret-position="255">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angularPOS/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/customer/customer.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="102">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/customer/customer.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
           <folding>
-            <element signature="e#0#56#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/order/order.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/item/item.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="287">
+          <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#2;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angularPOS/src/app/app-routing.module.ts">
+    <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/item/item.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+        <state relative-caret-position="238">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/order/order.component.html">
+    <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/dashboard/dashboard.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="50" lean-forward="true" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+        <state relative-caret-position="154">
+          <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#ngx-spinner#0;n#ngx-spinner#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/customer/customer.component.html">
+    <entry file="file://$PROJECT_DIR$/angularPOS/src/app/mainbody/dashboard/dashboard.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="57" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+        <state relative-caret-position="372">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

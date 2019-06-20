@@ -1,13 +1,94 @@
-<div class="jumbotron">
-  <div class="col-md-12 d-flex justify-content-start mt-3">
-    <select class="browser-default custom-select">
-      <option selected>Open this select menu</option>
-      <option value="1">One</option>
-      <option value="2">Two</option>
-      <option value="3">Three</option>
-    </select>
+<div class="animated lightSpeedIn jumbotron row" style="padding-top: 80px">
+  <div class="col-md-4">
+    <form class="form-inline md-form form-sm active-cyan active-gray-2">
+      <i class="fas fa-search" aria-hidden="true"></i>
+      <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search by customer id"
+             aria-label="Search"
+             mdbInput>
+    </form>
+  </div>
+  <div class="col-md-4">
+    <form class="form-inline md-form form-sm active-cyan active-cyan-2">
+      <i class="fas fa-search" aria-hidden="true"></i>
+      <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search by customer email"
+             aria-label="Search"
+             mdbInput>
+    </form>
   </div>
   <div class="col-md-12">
+    <!-- Default form register -->
+    <form class="text-center border border-light p-5 z-depth-2">
+
+      <p class="h4 mb-4" style="font-family: 'Sitka Text'">Customer Detail</p>
+
+      <div class="form-row mb-4">
+        <div class="col">
+          <!-- Last name -->
+          <!--<div id="defaultRegisterFormLastName" class="md-form" placeholder="Last name">-->
+          <input mdbInput type="text" id="form1l" placeholder="First Name" class="form-control">
+          <!--<label for="form1" class="">Example label</label>-->
+          <!--</div>-->
+        </div>
+        <div class="col">
+          <!-- Last name -->
+          <!--<div id="defaultRegisterFormLastName" class="md-form" placeholder="Last name">-->
+          <input mdbInput type="text" id="form1" placeholder="Last Name" class="form-control">
+          <!--<label for="form1" class="">Example label</label>-->
+          <!--</div>-->
+        </div>
+      </div>
+
+      <div class="form-row mb-4">
+        <div class="col">
+          <!-- Last name -->
+          <!--<div id="defaultRegisterFormLastName" class="md-form" placeholder="Last name">-->
+          <input mdbInput type="text" id="form2" placeholder="Customer Email" class="form-control">
+          <!--<label for="form1" class="">Example label</label>-->
+          <!--</div>-->
+        </div>
+        <div class="col">
+          <!-- Last name -->
+          <!--<div id="defaultRegisterFormLastName" class="md-form" placeholder="Last name">-->
+          <input mdbInput type="text" id="form3" placeholder="Customer Tel" class="form-control">
+          <!--<label for="form1" class="">Example label</label>-->
+          <!--</div>-->
+        </div>
+      </div>
+
+    </form>
+    <!-- Default form register -->
+  </div>
+  <div class="col-md-12 d-flex justify-content-end mt-3">
+    <button class="rounded-pill" outline="true" mdbBtn type="button" color="danger" mdbWavesEffect>
+      <mdb-icon class="mr-1" fas icon="radiation-alt"></mdb-icon>
+      Clear
+    </button>
+    <button class="rounded-pill" outline="true" mdbBtn type="button" color="danger" mdbWavesEffect>
+      <mdb-icon class="mr-1" far icon="trash-alt"></mdb-icon>
+      Delete
+    </button>
+    <button class="rounded-pill" outline="true" mdbBtn type="button" color="warning" mdbWavesEffect>
+      <mdb-icon class="mr-1" far icon="edit"></mdb-icon>
+      Update
+    </button>
 
   </div>
+  <div class="col-md-12 mt-3">
+    <table mdbTable>
+      <thead class="stylish-color-dark #3E4551 white-text">
+      <tr>
+        <th *ngFor="let head of headElements" scope="col">{{head}} </th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr mdbTableCol *ngFor="let el of elements">
+        <th scope="row">{{el.id}}</th>
+        <td>{{el.first}}</td>
+        <td>{{el.last}}</td>
+        <td>{{el.handle}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
 </div>
+
