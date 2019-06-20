@@ -297,6 +297,134 @@
           }
         }
       }
+    },
+    "app-routing": {
+      "root": "projects/app-routing/",
+      "sourceRoot": "projects/app-routing/src",
+      "projectType": "application",
+      "prefix": "app",
+      "schematics": {},
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/app-routing",
+            "index": "projects/app-routing/src/index.html",
+            "main": "projects/app-routing/src/main.ts",
+            "polyfills": "projects/app-routing/src/polyfills.ts",
+            "tsConfig": "projects/app-routing/tsconfig.app.json",
+            "assets": [
+              "projects/app-routing/src/favicon.ico",
+              "projects/app-routing/src/assets"
+            ],
+            "styles": [
+              "projects/app-routing/src/styles.css"
+            ],
+            "scripts": [],
+            "es5BrowserSupport": true
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "projects/app-routing/src/environments/environment.ts",
+                  "with": "projects/app-routing/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "app-routing:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "app-routing:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "app-routing:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/app-routing/src/test.ts",
+            "polyfills": "projects/app-routing/src/polyfills.ts",
+            "tsConfig": "projects/app-routing/tsconfig.spec.json",
+            "karmaConfig": "projects/app-routing/karma.conf.js",
+            "styles": [
+              "projects/app-routing/src/styles.css"
+            ],
+            "scripts": [],
+            "assets": [
+              "projects/app-routing/src/favicon.ico",
+              "projects/app-routing/src/assets"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/app-routing/tsconfig.app.json",
+              "projects/app-routing/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "app-routing-e2e": {
+      "root": "projects/app-routing-e2e/",
+      "projectType": "application",
+      "prefix": "",
+      "architect": {
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "projects/app-routing-e2e/protractor.conf.js",
+            "devServerTarget": "app-routing:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "app-routing:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": "projects/app-routing-e2e/tsconfig.e2e.json",
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "schematics": {
