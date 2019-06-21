@@ -1,0 +1,96 @@
+<div class="animated lightSpeedIn jumbotron row" style="padding-top: 80px">
+  <div class="col-md-12 d-flex justify-content-start mb-3">
+    <button mdbBtn routerLink="/main/dashboard" class="#bf360c deep-orange darken-4 rounded-pill" cltype="button"
+            rounded="true" style="color: white" mdbWavesEffect>Back
+    </button>
+  </div>
+  <!--<div class="col-md-6 d-flex justify-content-end mt-3 mb-3">-->
+  <!--<button mdbBtn routerLink="/main/order" class="#7283a7 mdb-color lighten-2 rounded-pill" cltype="button" rounded="true" style="color: white" mdbWavesEffect>Next</button>-->
+  <!--</div>-->
+  <div class="col-md-12">
+    <!-- Default form register -->
+    <form class="text-center border border-light p-5 z-depth-2">
+
+      <p class="h4 mb-4" style="font-family: 'Sitka Text'">Order Detail</p>
+
+      <div class="form-row mb-4">
+        <div class="col">
+          <!-- First name -->
+          <select type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name"
+                  class="browser-default custom-select">
+            <option selected>item name</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="col">
+          <!-- Last name -->
+          <!--<div id="defaultRegisterFormLastName" class="md-form" placeholder="Last name">-->
+          <input mdbInput type="text" id="form1" placeholder="Unit Price" class="form-control">
+          <!--<label for="form1" class="">Example label</label>-->
+          <!--</div>-->
+        </div>
+      </div>
+
+      <div class="form-row mb-4">
+        <div class="col">
+          <!-- Last name -->
+          <!--<div id="defaultRegisterFormLastName" class="md-form" placeholder="Last name">-->
+          <input mdbInput type="text" id="form2" placeholder="Qunatity On Hand" class="form-control">
+          <!--<label for="form1" class="">Example label</label>-->
+          <!--</div>-->
+        </div>
+        <div class="col">
+          <!-- Last name -->
+          <!--<div id="defaultRegisterFormLastName" class="md-form" placeholder="Last name">-->
+          <input mdbInput type="text" id="form3" placeholder="Total Price" class="form-control">
+          <!--<label for="form1" class="">Example label</label>-->
+          <!--</div>-->
+        </div>
+      </div>
+
+    </form>
+    <!-- Default form register -->
+  </div>
+  <div class="col-md-12 d-flex justify-content-end mt-3">
+    <button class="rounded-pill" outline="true" mdbBtn type="button" color="danger" mdbWavesEffect>
+      <mdb-icon class="mr-1" fas icon="radiation-alt"></mdb-icon>
+      Clear
+    </button>
+    <button class="rounded-pill" outline="true" mdbBtn type="button" color="danger" mdbWavesEffect>
+      <mdb-icon class="mr-1" far icon="trash-alt"></mdb-icon>
+      Delete
+    </button>
+    <button class="rounded-pill" outline="true" mdbBtn type="button" color="warning" mdbWavesEffect>
+      <mdb-icon class="mr-1" far icon="edit"></mdb-icon>
+      Update
+    </button>
+    <button class="rounded-pill" mdbBtn type="button" outline="true" color="default" mdbWavesEffect>
+      <mdb-icon class="mr-1" far icon="save"></mdb-icon>
+      Save
+    </button>
+    <!--<button mdbBtn color="primary" type="button" disabled>-->
+    <!--<span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>-->
+    <!--Loading...-->
+    <!--</button>-->
+  </div>
+  <div class="col-md-12 mt-3">
+    <table mdbTable>
+      <thead class="stylish-color-dark #3E4551 white-text">
+      <tr>
+        <th *ngFor="let head of headElements" scope="col">{{head}} </th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr mdbTableCol *ngFor="let el of elements">
+        <th scope="row">{{el.id}}</th>
+        <td>{{el.first}}</td>
+        <td>{{el.last}}</td>
+        <td>{{el.handle}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
