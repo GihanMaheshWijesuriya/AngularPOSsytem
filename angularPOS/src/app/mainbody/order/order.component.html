@@ -60,15 +60,12 @@
       <mdb-icon class="mr-1" fas icon="radiation-alt"></mdb-icon>
       Clear
     </button>
-    <button class="rounded-pill" outline="true" mdbBtn type="button" color="danger" mdbWavesEffect>
-      <mdb-icon class="mr-1" far icon="trash-alt"></mdb-icon>
-      Delete
-    </button>
     <button class="rounded-pill" (click)="addData()" outline="true" mdbBtn type="button" color="warning" mdbWavesEffect>
       <mdb-icon class="mr-1" far icon="edit"></mdb-icon>
       Add
     </button>
-    <button class="rounded-pill" mdbBtn type="button" outline="true" color="default" mdbWavesEffect>
+    <button class="rounded-pill" mdbBtn type="button" outline="true" (click)="saveOrder()" color="default"
+            mdbWavesEffect>
       <mdb-icon class="mr-1" far icon="save"></mdb-icon>
       Save
     </button>
