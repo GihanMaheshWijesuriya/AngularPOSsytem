@@ -1,4 +1,10 @@
 <div class="animated lightSpeedIn jumbotron row" style="padding-top: 80px">
+  <div *ngIf="success" class="alert alert-primary" role="alert">
+    customer added successfully!
+  </div>
+  <div *ngIf="error" class="alert alert-danger" role="alert">
+    customer added not successfully!
+  </div>
   <div class="col-md-12 d-flex justify-content-end">
     <button mdbBtn routerLink="/main/order" class="#7283a7 mdb-color lighten-2 rounded-pill mb-3" cltype="button"
             rounded="true"
@@ -74,23 +80,27 @@
         <div class="col">
           <!-- First name -->
           <input type="text" name="firstName" [(ngModel)]="selectedCustomer.cusfirstname"
-                 id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+                 id="defaultRegisterFormFirstName" required pattern="[a-zA-z]{4,}" class="form-control"
+                 placeholder="First name">
           <!--<mdb-error *ngIf="submitNext.invalid && (submitNext.dirty || submitNext.touched)">Input invalid</mdb-error>-->
         </div>
         <div class="col">
           <!-- Last name -->
           <input type="text" name="lastName" [(ngModel)]="selectedCustomer.cuslastname"
-                 id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+                 id="defaultRegisterFormLastName" required pattern="[a-zA-z]{4,}" class="form-control"
+                 placeholder="Last name">
         </div>
       </div>
 
       <!-- E-mail -->
       <input type="email" name="cusemail" [(ngModel)]="selectedCustomer.cusemail"
-             id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+             id="defaultRegisterFormEmail" class="form-control mb-4" regular pattern="^(.+)@(.+)$"
+             placeholder="E-mail">
 
       <!-- Password -->
       <input type="password" name="cuspassword" [(ngModel)]="selectedCustomer.cuspassword"
-             id="defaultRegisterFormPassword" class="form-control" placeholder="Password"
+             id="defaultRegisterFormPassword" required pattern="[a-zA-A0-9]{8,}" class="form-control"
+             placeholder="Password"
              aria-describedby="defaultRegisterFormPasswordHelpBlock">
       <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
         At least 8 characters and 1 digit
@@ -98,7 +108,8 @@
 
       <!-- Phone number -->
       <input type="text" name="cusphonenumber" [(ngModel)]="selectedCustomer.cusphonenum"
-             id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number"
+             id="defaultRegisterPhonePassword" required pattern="[0-9]{10}" class="form-control"
+             placeholder="Phone number"
              aria-describedby="defaultRegisterFormPhoneHelpBlock">
       <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
         Optional - for two step authentication

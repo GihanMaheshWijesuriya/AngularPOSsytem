@@ -1,4 +1,6 @@
 import {Component, OnInit} from '@angular/core';
+import {ItemService} from "../../services/item.service";
+import {Item} from "../../dto/Item";
 
 @Component({
   selector: 'app-order',
@@ -14,10 +16,22 @@ export class OrderComponent implements OnInit {
 
   headElements = ['Orderdtl ID', 'Item ID', 'Item Name', 'Unit Price', 'Qty', 'Total Price'];
 
-  constructor() {
+  itemArray: Array<Item> = [];
+
+  constructor(private itemservice: ItemService) {
   }
 
   ngOnInit() {
+    this.getAllItem();
+  }
+
+  getAllItem() {
+    this.itemservice.getAllItemData()
+      .subscribe((result) => {
+        this.itemArray = result;
+      }, (error1 => {
+        console.log(error1);
+      }))
   }
 
 }

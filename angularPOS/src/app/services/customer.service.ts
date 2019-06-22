@@ -21,4 +21,12 @@ export class CustomerService {
   saveCustomer(selectedCustomer: Customer) {
     return this.http.post(this.super.getBaseUrl() + '/customers', selectedCustomer);
   }
+
+  deletecustomer(cusid: number) {
+    return this.http.delete(this.super.getBaseUrl() + '/customers?cusid=' + cusid);
+  }
+
+  updateCustomer(selectedCustomer: Customer) {
+    return this.http.put(this.super.getBaseUrl() + '/customers', selectedCustomer);
+  }
 }

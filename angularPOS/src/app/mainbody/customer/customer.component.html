@@ -1,16 +1,23 @@
 <div class="animated lightSpeedIn jumbotron row" style="padding-top: 80px">
+  <div *ngIf="success" class="alert alert-primary" role="alert">
+    process successfully!
+  </div>
+  <div *ngIf="error" class="alert alert-danger" role="alert">
+    process not successfully!
+  </div>
   <div class="col-md-4">
     <form class="form-inline md-form form-sm active-cyan active-gray-2">
-      <i class="fas fa-search" aria-hidden="true"></i>
-      <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search by customer id"
+      <i (click)="searchByID(idinput.value)" class="fas fa-search" aria-hidden="true"></i>
+      <input #idinput class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search by customer id"
              aria-label="Search"
              mdbInput>
     </form>
   </div>
   <div class="col-md-4">
     <form class="form-inline md-form form-sm active-cyan active-cyan-2">
-      <i class="fas fa-search" aria-hidden="true"></i>
-      <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search by customer email"
+      <i (click)="searchByEmail(emailinput.value)" class="fas fa-search" aria-hidden="true"></i>
+      <input #emailinput class="form-control form-control-sm ml-3 w-75" type="text"
+             placeholder="Search by customer email"
              aria-label="Search"
              mdbInput>
     </form>
@@ -25,14 +32,18 @@
         <div class="col">
           <!-- Last name -->
           <!--<div id="defaultRegisterFormLastName" class="md-form" placeholder="Last name">-->
-          <input mdbInput type="text" id="form1l" placeholder="First Name" class="form-control">
+          <input mdbInput type="text" name="firstname" [(ngModel)]="selectedCustomer.cusfirstname" required
+                 pattern="[a-zA-z]{4,}"
+                 id="form1l" placeholder="First Name" class="form-control">
           <!--<label for="form1" class="">Example label</label>-->
           <!--</div>-->
         </div>
         <div class="col">
           <!-- Last name -->
           <!--<div id="defaultRegisterFormLastName" class="md-form" placeholder="Last name">-->
-          <input mdbInput type="text" id="form1" placeholder="Last Name" class="form-control">
+          <input mdbInput type="text" name="lastname" [(ngModel)]="selectedCustomer.cuslastname" required
+                 pattern="[a-zA-z]{4,}"
+                 id="form1" placeholder="Last Name" class="form-control">
           <!--<label for="form1" class="">Example label</label>-->
           <!--</div>-->
         </div>
@@ -42,14 +53,18 @@
         <div class="col">
           <!-- Last name -->
           <!--<div id="defaultRegisterFormLastName" class="md-form" placeholder="Last name">-->
-          <input mdbInput type="text" id="form2" placeholder="Customer Email" class="form-control">
+          <input mdbInput type="text" name="cusemail" [(ngModel)]="selectedCustomer.cusemail" regular
+                 pattern="^(.+)@(.+)$"
+                 id="form2" placeholder="Customer Email" class="form-control">
           <!--<label for="form1" class="">Example label</label>-->
           <!--</div>-->
         </div>
         <div class="col">
           <!-- Last name -->
           <!--<div id="defaultRegisterFormLastName" class="md-form" placeholder="Last name">-->
-          <input mdbInput type="text" id="form3" placeholder="Customer Tel" class="form-control">
+          <input mdbInput type="text" id="form3" name="cusphone" [(ngModel)]="selectedCustomer.cusphonenum" required
+                 pattern="[0-9]{10}"
+                 placeholder="Customer Tel" class="form-control">
           <!--<label for="form1" class="">Example label</label>-->
           <!--</div>-->
         </div>
@@ -59,15 +74,18 @@
     <!-- Default form register -->
   </div>
   <div class="col-md-12 d-flex justify-content-end mt-3">
-    <button class="rounded-pill" outline="true" mdbBtn type="button" color="danger" mdbWavesEffect>
+    <button class="rounded-pill" outline="true" mdbBtn type="button" color="danger" (click)="clearCustomer()"
+            mdbWavesEffect>
       <mdb-icon class="mr-1" fas icon="radiation-alt"></mdb-icon>
       Clear
     </button>
-    <button class="rounded-pill" outline="true" mdbBtn type="button" color="danger" mdbWavesEffect>
+    <button class="rounded-pill" outline="true" mdbBtn type="button" color="danger" (click)="deleteCustomer()"
+            mdbWavesEffect>
       <mdb-icon class="mr-1" far icon="trash-alt"></mdb-icon>
       Delete
     </button>
-    <button class="rounded-pill" outline="true" mdbBtn type="button" color="warning" mdbWavesEffect>
+    <button class="rounded-pill" outline="true" mdbBtn type="button" color="warning" (click)="updateCustomer()"
+            mdbWavesEffect>
       <mdb-icon class="mr-1" far icon="edit"></mdb-icon>
       Update
     </button>
@@ -81,14 +99,24 @@
       </tr>
       </thead>
       <tbody>
-      <tr mdbTableCol *ngFor="let el of elements">
-        <th scope="row">{{el.id}}</th>
-        <td>{{el.first}}</td>
-        <td>{{el.last}}</td>
-        <td>{{el.handle}}</td>
+      <tr style="cursor: pointer" mdbTableCol *ngFor="let el of customerArray" (click)="selectTableData(el)">
+        <th scope="row">{{el.cusid}}</th>
+        <td>{{el.cusfirstname}}</td>
+        <td>{{el.cuslastname}}</td>
+        <td>{{el.cusemail}}</td>
+        <td>{{el.cusphonenum}}</td>
       </tr>
       </tbody>
     </table>
   </div>
 </div>
 
+<ngx-spinner
+  bdOpacity=0.9
+  size="medium"
+  color="#b6bbba"
+  type="ball-fussion"
+  [fullScreen]="true"
+>
+  <p style="color: white"> Loading... </p>
+</ngx-spinner>

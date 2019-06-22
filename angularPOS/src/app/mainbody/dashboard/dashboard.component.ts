@@ -12,6 +12,8 @@ import {NgForm} from "@angular/forms";
 export class DashboardComponent implements OnInit {
   hidepane: boolean;
   customerArray: Array<Customer> = [];
+  success: boolean = false;
+  error: boolean = false;
 
   headElements = ['Customer ID', 'First Name', 'Last Name', 'Customer Email', 'Customer Tel'];
   selectedCustomer: Customer = new Customer(null, '', '', '', '', '');
@@ -57,12 +59,19 @@ export class DashboardComponent implements OnInit {
   }
 
   saveCustomer() {
+    this.spinner.show();
     this.customerservice.saveCustomer(this.selectedCustomer)
       .subscribe((result) => {
-        alert('Customer Added');
-        this.getAllCustomerData();
+        setTimeout(() => {
+          this.spinner.hide();
+          this.success = true;
+          this.getAllCustomerData();
+        }, 2000);
       }, (error1 => {
-        console.log(error1);
+        setTimeout(() => {
+          this.spinner.hide();
+          this.error = true;
+        }, 2000);
       }))
   }
 }
