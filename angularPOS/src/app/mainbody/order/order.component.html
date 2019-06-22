@@ -9,22 +9,24 @@
   <!--</div>-->
   <div class="col-md-12">
     <!-- Default form register -->
-    <form class="text-center border border-light p-5 z-depth-2">
+    <form #frmCustomer="ngForm" class="text-center border border-light p-5 z-depth-2">
 
       <p class="h4 mb-4" style="font-family: 'Sitka Text'">Order Detail</p>
 
       <div class="form-row mb-4">
         <div class="col">
           <!-- First name -->
-          <select type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name"
+          <select (change)="selectValues($event)" type="text" id="defaultRegisterFormFirstName" class="form-control"
+                  placeholder="First name"
                   class="browser-default custom-select">
-            <option *ngFor="let orid of itemArray">{{orid.itemname}}</option>
+            <option *ngFor="let orid of itemArray" value="{{orid.itemname}}">{{orid.itemname}}</option>
           </select>
         </div>
         <div class="col">
           <!-- Last name -->
           <!--<div id="defaultRegisterFormLastName" class="md-form" placeholder="Last name">-->
-          <input mdbInput type="text" id="form1" placeholder="Unit Price" class="form-control">
+          <input mdbInput type="text" id="form1" placeholder="Unit Price" name="unitprice"
+                 [(ngModel)]="selectedOrderDetail.unitprice" class="form-control">
           <!--<label for="form1" class="">Example label</label>-->
           <!--</div>-->
         </div>
@@ -34,14 +36,16 @@
         <div class="col">
           <!-- Last name -->
           <!--<div id="defaultRegisterFormLastName" class="md-form" placeholder="Last name">-->
-          <input mdbInput type="text" id="form2" placeholder="Qunatity On Hand" class="form-control">
+          <input mdbInput type="text" id="form2" placeholder="Qunatity On Hand" name="qty" #qtyinput
+                 (keyup)="changeTotal(qtyinput.value)" [(ngModel)]="selectedOrderDetail.qty" class="form-control">
           <!--<label for="form1" class="">Example label</label>-->
           <!--</div>-->
         </div>
         <div class="col">
           <!-- Last name -->
           <!--<div id="defaultRegisterFormLastName" class="md-form" placeholder="Last name">-->
-          <input mdbInput type="text" id="form3" placeholder="Total Price" class="form-control">
+          <input mdbInput type="text" id="form3" placeholder="Total Price" name="totprice"
+                 [(ngModel)]="selectedOrderDetail.totalprice" class="form-control">
           <!--<label for="form1" class="">Example label</label>-->
           <!--</div>-->
         </div>
@@ -51,7 +55,8 @@
     <!-- Default form register -->
   </div>
   <div class="col-md-12 d-flex justify-content-end mt-3">
-    <button class="rounded-pill" outline="true" mdbBtn type="button" color="danger" mdbWavesEffect>
+    <button (click)="clearData()" class="rounded-pill" outline="true" mdbBtn type="button" color="danger"
+            mdbWavesEffect>
       <mdb-icon class="mr-1" fas icon="radiation-alt"></mdb-icon>
       Clear
     </button>
@@ -59,9 +64,9 @@
       <mdb-icon class="mr-1" far icon="trash-alt"></mdb-icon>
       Delete
     </button>
-    <button class="rounded-pill" outline="true" mdbBtn type="button" color="warning" mdbWavesEffect>
+    <button class="rounded-pill" (click)="addData()" outline="true" mdbBtn type="button" color="warning" mdbWavesEffect>
       <mdb-icon class="mr-1" far icon="edit"></mdb-icon>
-      Update
+      Add
     </button>
     <button class="rounded-pill" mdbBtn type="button" outline="true" color="default" mdbWavesEffect>
       <mdb-icon class="mr-1" far icon="save"></mdb-icon>
@@ -80,11 +85,12 @@
       </tr>
       </thead>
       <tbody>
-      <tr mdbTableCol *ngFor="let el of elements">
-        <th scope="row">{{el.id}}</th>
-        <td>{{el.first}}</td>
-        <td>{{el.last}}</td>
-        <td>{{el.handle}}</td>
+      <tr mdbTableCol *ngFor="let el of orderDetailArray">
+        <th scope="row">{{el.itemid}}</th>
+        <td>{{el.itemname}}</td>
+        <td>{{el.unitprice}}</td>
+        <td>{{el.qty}}</td>
+        <td>{{el.totalprice}}</td>
       </tr>
       </tbody>
     </table>

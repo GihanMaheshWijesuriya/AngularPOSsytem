@@ -1,6 +1,8 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, ViewChild} from '@angular/core';
 import {ItemService} from "../../services/item.service";
 import {Item} from "../../dto/Item";
+import {OrderDetail} from "../../dto/OrderDetail";
+import {NgForm} from "@angular/forms";
 
 @Component({
   selector: 'app-order',
@@ -8,16 +10,12 @@ import {Item} from "../../dto/Item";
   styleUrls: ['./order.component.scss']
 })
 export class OrderComponent implements OnInit {
-  elements: any = [
-    {id: 1, first: 'Mark', last: 'Otto', handle: '@mdo'},
-    {id: 2, first: 'Jacob', last: 'Thornton', handle: '@fat'},
-    {id: 3, first: 'Larry', last: 'the Bird', handle: '@twitter'},
-  ];
 
-  headElements = ['Orderdtl ID', 'Item ID', 'Item Name', 'Unit Price', 'Qty', 'Total Price'];
-
+  headElements = ['Item ID', 'Item Name', 'Unit Price', 'Qty', 'Total Price'];
+  orderDetailArray: Array<OrderDetail> = [];
   itemArray: Array<Item> = [];
-
+  selectedOrderDetail = new OrderDetail(null, null, '', null, null, null);
+  @ViewChild('frmCustomer') frmCustomer: NgForm;
   constructor(private itemservice: ItemService) {
   }
 
@@ -34,4 +32,30 @@ export class OrderComponent implements OnInit {
       }))
   }
 
+
+  selectValues(event: any) {
+    let names = event.target.value;
+    for (let i = 0; i < this.itemArray.length; i++) {
+      if (names == this.itemArray[i].itemname) {
+        this.selectedOrderDetail = new OrderDetail(null, this.itemArray[i].itemid, this.itemArray[i].itemname,
+          this.itemArray[i].itemprice, 0, 0);
+      }
+    }
+  }
+
+  addData() {
+    this.orderDetailArray.push(this.selectedOrderDetail);
+  }
+
+  changeTotal(value: string) {
+    let qty = parseInt(value);
+    let totprice = qty * this.selectedOrderDetail.unitprice;
+    this.selectedOrderDetail.totalprice = totprice;
+  }
+
+  clearData() {
+    this.orderDetailArray = [];
+    this.selectedOrderDetail = new OrderDetail(null, null, '',
+      null, null, null);
+  }
 }
